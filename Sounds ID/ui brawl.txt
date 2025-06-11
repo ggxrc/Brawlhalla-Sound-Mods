@@ -1,0 +1,4 @@
+K.O Effects
+
+	Default -> 115
+	Synthwave -> 212
