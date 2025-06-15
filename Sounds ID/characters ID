@@ -1,25 +1,57 @@
 O que significa cada ID de personagem e seus respectivos sons.
 
 charge - Som de ataque carregando, quando é necessário segurar o botão.
-fire - Som de ataque disparando, quando é necessário soltar o botão, ou quando alcança a carga máxima da sig.
+fire - Som de ataque disparando ou soltando golpe, quando é necessário soltar o botão, ou quando alcança a carga máxima da sig.
 pick - Som de ataque pegando, quando a sig pega o inimigo com o golpe.
-throw - Som de ataque arremessando, quando a sig arremesa o inimigo com o golpe.
+throw/launch - Som de ataque arremessando, quando a sig arremesa o inimigo com o golpe.
 
     charge pode fazer parte de um ataque específico, ou todos os ataques usam o mesmo charge.
     fire e pick podem ser substituídos um pelo outro, dependendo do personagem.
     alguns nomes como "roll", "throwRock" e etc, são características de personagens específicos.
+    launch e throw são parecidos na sua função.
 
+// Characters ID organizados por ordem de eventos de ataque.
+Nix:
+        Pistol:
+                Neutral -> charge - 33, fire - 35, throw - 39.
+                Side -> charge - 16, fire - 48, 46.
+                Down -> charge - 09, fire - 18.
 
-// Characters ID
-Nix:    Neutral -> charge - 33, fire - 35, throw - 39
+        Scythe:
+                Neutral -> charge - 26, fire - 20.
+                Side -> charge - 30, fire - 41.
+                Down -> charge - 14, fire - 27, 53, 51 
 
-Kor:    Fists:
+Kor:
+        Fists:
                 Neutral -> fire - 18, pick - 39, throw - 65.
                 Side -> fire - 02, pick - 13, throw - 60.
                 Down -> fire - 64.
             charge -> 25.
+
         Hammer:
                 Neutral -> throwRock - 49, hitRock - 61.
                 Side -> fire - 47
                 Down -> roll - 05, fire - 56
             charge -> 08.
+
+Cross:
+        Fists:
+                Neutral -> charge - 59, fire - 74.
+                Side -> charge - 01, fire - 64.
+                Down -> charge - 23, pick - 12, throw - 24.
+        Pistol:
+                Neutral -> PistolFire - 32, 57, 60, 69.
+                Side -> jump - 05.
+                Down -> fire - 05.
+            charge -> 33, 70.
+
+Tezca:
+        Fists:
+                Neutral -> charge - 07, launch - 22, hit - 01, 05, 28, 18.
+                Side -> charge - 12, launch - 14, hit - 06, 15, 29.
+                Down -> charge - 09, launch - 20, 21, 27, hit - 04, 13, 17, 34.
+        Boots:
+                Neutral -> charge - 24, launch - 23, hit - 16, 03.
+                Side -> charge - 30, launch - 19, hit - 32.
+                Down -> charge - 33, launch - 26, hit - 31, 28, 25, 11, 10, 02.
