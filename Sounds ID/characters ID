@@ -1,1 +1,25 @@
-Nix:    Neutral -> up - 33, fire - 35, Throw - 39
+O que significa cada ID de personagem e seus respectivos sons.
+
+charge - Som de ataque carregando, quando é necessário segurar o botão.
+fire - Som de ataque disparando, quando é necessário soltar o botão, ou quando alcança a carga máxima da sig.
+pick - Som de ataque pegando, quando a sig pega o inimigo com o golpe.
+throw - Som de ataque arremessando, quando a sig arremesa o inimigo com o golpe.
+
+    charge pode fazer parte de um ataque específico, ou todos os ataques usam o mesmo charge.
+    fire e pick podem ser substituídos um pelo outro, dependendo do personagem.
+    alguns nomes como "roll", "throwRock" e etc, são características de personagens específicos.
+
+
+// Characters ID
+Nix:    Neutral -> charge - 33, fire - 35, throw - 39
+
+Kor:    Fists:
+                Neutral -> fire - 18, pick - 39, throw - 65.
+                Side -> fire - 02, pick - 13, throw - 60.
+                Down -> fire - 64.
+            charge -> 25.
+        Hammer:
+                Neutral -> throwRock - 49, hitRock - 61.
+                Side -> fire - 47
+                Down -> roll - 05, fire - 56
+            charge -> 08.
