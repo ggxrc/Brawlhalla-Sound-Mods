@@ -42,7 +42,7 @@ Cross:
                 Down -> charge - 23, pick - 12, throw - 24.
         Pistol:
                 Neutral -> PistolFire - 32, 57, 60, 69.
-                Side -> jump - 05.
+                Side -> jump - 68.
                 Down -> fire - 05.
             charge -> 33, 70.
 
@@ -55,3 +55,16 @@ Tezca:
                 Neutral -> charge - 24, launch - 23, hit - 16, 03.
                 Side -> charge - 30, launch - 19, hit - 32.
                 Down -> charge - 33, launch - 26, hit - 31, 28, 25, 11, 10, 02.
+
+Yumiko:       
+        Bow:
+                Neutral -> fire - 47, 42, 39, 38, 63.
+                Side -> fire - 35, 41, 43, 20, 18.
+                Down -> fire - 14, 10, 44, 34, 08, 49.
+            buildup -> 51.
+
+        Hammer:
+                Neutral -> swing - 19, 56, 24, throw - 37.
+                Side -> jump - 64, swing - 17.
+                Down -> swing - 32.
+            buildup -> 48.
