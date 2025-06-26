@@ -1,5 +1,7 @@
 # Brawlhalla Sound Mods
 
+> **Nota:** A partir de agora, todos os áudios presentes na pasta `sfx and memes` fazem parte exclusivamente da branch **Only Audios** e foram removidos da branch principal. Caso queira acessar ou contribuir com esses áudios, utilize a branch Only Audios.
+
 Este repositório contém ferramentas e recursos para modificar sons no jogo Brawlhalla. O projet## Notas Importantes
 - **Sempre faça backup** dos arquivos `.bnk` originais antes de substituí-los
 - A numeração nos nomes dos arquivos (ex: 01, 03, 04) deve corresponder **exatamente** ao nome do arquivo de som no jogo

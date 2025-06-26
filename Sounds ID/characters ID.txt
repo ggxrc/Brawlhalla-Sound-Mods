@@ -68,3 +68,15 @@ Yumiko:
                 Side -> jump - 64, swing - 17.
                 Down -> swing - 32.
             buildup -> 48.
+
+Mordex:
+        Fists:
+                Neutral -> 
+                Side -> 
+                Down -> 
+        Scythe:
+                Neutral -> 
+                Side -> 
+                Down -> 
+
+       
