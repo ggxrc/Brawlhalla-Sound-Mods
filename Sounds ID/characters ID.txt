@@ -71,12 +71,77 @@ Yumiko:
 
 Mordex:
         Fists:
-                Neutral -> 
-                Side -> 
-                Down -> 
-        Scythe:
-                Neutral -> 
-                Side -> 
-                Down -> 
+                swing -> 12, 33, 24, 43, 05.
+                buildup -> 14.
 
-       
+        Scythe:
+                swing -> 09, 66, 27, 50, 29, 49, 18.
+                side_swing -> 23.
+                buildup -> 25.
+                growl_buildup -> 13.
+                howl_buildup -> 67.
+
+
+Azoth:
+        Axe:
+                fire -> 08, 02, 01, 03.
+                glide -> 05.
+
+        Bow:
+                fire -> 04, 07, 09.
+        
+        buildup -> 06.
+
+Teros:
+        Hammer:
+                impact_small -> 59, 41, 14, 21.
+                impact_medium -> 58, 35, 48.
+                impact_large -> 16, 06, 28, 49.
+
+        growl -> 30, 13, 27.
+        buildup -> 33.
+
+Hattori:
+        Sword:
+                swing -> 19, 53, 23, 48.
+                buildup -> 61.
+
+        Spear:
+                swing -> 28, 51, 29, 11, 15.
+                buildup -> 57.
+
+Diana:
+        Pistol:
+                Neutral -> throw - 34, fire - 19, explode - 24.
+                Side -> whip - 09, fire - 16, 26, 29.
+                Down -> 
+            buildup -> 21.
+
+        Bow:
+                Neutral -> grapple_swing - 31, grapple_fire - 38.
+                Side -> swing - 44, 18.
+                Down -> swing - 11, 14, 46, fire - 25.
+            buildup -> 08.       
+
+Petra:
+        Fists:
+                Neutral -> charge - 53, fire - 28, hit - 46.
+                Side -> charge - 47, fire - 14, hit - 38.
+                Down -> charge - 61, fire - 12, hit - 66.
+
+        Orb:
+                Neutral -> charge - 35, fire - 68, hit - 58.
+                Side -> charge - 06, fire - 03, hit - 02.
+                Down -> charge - 11, fire - 45, hit - 64.
+
+Sir Roland:
+        Sword:
+                swing -> 05, 06, 07.
+                swing_fire -> 11.
+                buildup -> 01.
+
+        Rocket Lance:
+                fire -> 04.
+                fire_short -> 02.
+                fire_horse -> 10.
+                buildup -> 12.
